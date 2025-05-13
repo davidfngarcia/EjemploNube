@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Brandon', sans-serif;
+}
+
+header{
+    font-size: medium;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px; 
+    width: 100%;   
+    justify-content: space-around;
+}
+
+.Navegar{
+    height:  10px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+}
+
+a{
+    text-decoration:none ;
+    color: black;
+}
+
+.Museo{
+    height: 450px;
+    width: 200;
+}
+
+.imagen1{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://aprende.guatemala.com/wp-content/uploads/2016/09/guatemala-museodeartemoderno.jpg") ;
+    background-repeat: no-repeat;
+}
+
+.Arte{
+    font-size: 3.5em;
+    font-weight: 500;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 82, 36);
+    color: white;
+    height: 100px;
+    width: 100%;
+}
+
+.espacio1{
+    height: 15px;
+}
+
+.Imagen2{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://mam.inba.gob.mx/assets/home/banner/CABANAS_BANNER%20EXPO.webp");
+    background-repeat: no-repeat;
+}
+
+h2{
+    font-size: 3.5em;
+    font-weight: 500;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.Imagen3{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex-direction: row;
+    padding: 70px
+}
+
+.Arte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 82, 36);
+    color: white;
+    height: 190px;
+    width: 100%;
+}
+
+h3{
+    font-size: 3.5em;
+    font-weight: 500;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large ;
+}
+
+.Accesibilidad{
+    background-color: rgb(65, 82, 36);
+    color: white;
+    padding: 70px;
+}
+
+.Imagen4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 150px;
+    width: 1200px;
+}
+
+.cmapa{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 96;
+    height: 80;
+}
+
+.InfoMuseo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: row;
+}
+
+.InfoMap{
+    font-family: "brandon" sans-serif;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 5%;
+    width: 50%;
+    font-size:x-large;
+}
+
+.ImagenTexto{
+    display: flex;
+    align-items:center;
+    height: 90px;
+    width: 350px;
+}
+
+#Final{
+    background-color: rgb(65, 82, 36);
+    display: flex;
+    height: 160px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.List{
+    display: flex;
+    height: 50%;
+    align-items: center;
+
+}
+.lista{
+    width: 200px;
+    list-style: none;
+    display: flex;
+    padding-top: 40px;
+}
+
+li{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.redes{
+    height: 25px;
+    width: 25px;
+}
+
+.Párrafo{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.aviso{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.contactos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pi{
+    margin:10px;
+    text-align: center;
+}
+
+.Titulo1{
+    color: rgb(56, 54, 54);
+    font-family:"brandon" sans-serif;
+    font-weight:normal;
+    font-size: 35px;
+    padding-bottom: 12px;
+}
+
+.Sans{
+    color: gray;
+    font-family:"brandon" sans-serif;
+    font-weight:normal;
+    font-size: 15px;
+}
+.informacion{
+    /* padding-left: 1em; */
+    font-family:"brandon";
+    font-weight:normal;
+    font-size: 15px;
+}
+
+.Horarios{
+    color:rgb(40, 32, 32); 
+    padding-left: 1em;
+    font-family:"brandon" sans-serif;
+    font-weight:normal;
+    font-size: 21.9px;
+}
+.Horarios2{
+    display: flex;
+    gap: 10px;
+}
+
+#Icon1{
+    color: gray;
+    font-size:x-large
+}
+
+.Horarios3{
+    display: flex;
+    gap: 10px;
+}
+#Icon2{
+    color: gray;
+    font-size:x-large
+}
+
+.Horarios4{
+    display: flex;
+    gap: 10px;
+}
+
+#Icon4{
+    color: gray;
+    font-size:x-large
+}
